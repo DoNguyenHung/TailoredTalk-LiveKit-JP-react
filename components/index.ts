@@ -1,1 +1,1 @@
-export * from './components/agent-session-block';
+export * from './agent-session-block';
