@@ -138,7 +138,7 @@ export function AgentAudioVisualizerRadial({
       default:
         return 1000;
     }
-  }, [state]);
+  }, [state, _barCount]);
 
   const distanceFromCenter = useMemo(() => {
     if (radius) {

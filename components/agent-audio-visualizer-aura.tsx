@@ -20,7 +20,7 @@ function hexToRgb(hexColor: string) {
 
       return color;
     }
-  } catch (_error) {
+  } catch (error) {
     console.error(
       `Invalid hex color '${hexColor}'.\nFalling back to default color '${DEFAULT_COLOR}'.`
     );
